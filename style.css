@@ -16,7 +16,7 @@ ul li a{
 
 div img{
     display: block;
-    width: 100%;
+    width: 80%;
 }
 
 .flex-container{
@@ -24,6 +24,7 @@ div img{
     max-width: 992px;
     margin: auto;
     width: 100%;
+    min-width: 320px;
 }
 
 header{
@@ -230,4 +231,20 @@ header .menu{
     height: 10px;
     background-color: #122a57;
     margin-right: 5px;
+}
+
+footer{
+    background-color: #122a57;
+    height: 70px;
+    display: flex;
+}
+
+.footer{
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: #ffffff;
 }
